@@ -158,7 +158,7 @@ export function deleteMessageText(messageTextKey, _, f) {
     console.warn(`cxy-react-i18n 删除语言包对应文本 值不能为空`);
   } else if (getType(messageTextKey) !== "string") {
     console.warn(`cxy-react-i18n 删除语言包对应文本 值类型错误`);
-  } else if (f.moduleComputed.I18nMessageKeys.indexOf(messageTextKey) === -1) {
+  } else if (f.moduleComputed.i18nMessageKeys.indexOf(messageTextKey) === -1) {
     console.warn(`cxy-react-i18n 删除语言包对应文本 值不存在于当前语言包内`);
   } else {
     const nowMessage = deepClone(_.message);
