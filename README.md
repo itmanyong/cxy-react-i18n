@@ -542,7 +542,7 @@ function App() {
 }
 ```
 
-## 示例(还未完全完善,可能未及时同步,会尽快完善)
+## 示例
 
 <h1><a href="https://codesandbox.io/s/cxy-react-18n-zongheshili-zvbc7"  target="_blank">综合示例</a></h1>
 <h1><a href="https://codesandbox.io/s/weishiyongconcentdexiangmushiyongshili-phhsl"  target="_blank">项目中未使用 concent 的使用示例-自动注册</a></h1>

@@ -92,10 +92,10 @@ export function addMessageText(messageItems, _, f) {
       `cxy-react-i18n 添加已有语言包内容 值的类型不正确,需要一个对象`
     );
   } else {
-    const { i18nLangKey } = f.moduleComputed;
-    if (i18nLangKey && i18nLangKey.length) {
+    const { i18nLangKeys } = f.moduleComputed;
+    if (i18nLangKeys && i18nLangKeys.length) {
       const nowMessage = deepClone(_.message);
-      i18nLangKey.forEach((msgKey) => {
+      i18nLangKeys.forEach((msgKey) => {
         nowMessage[msgKey] = {
           ...nowMessage[msgKey],
           ...messageItems[msgKey],
