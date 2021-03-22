@@ -530,14 +530,14 @@ function App() {
 }
 ```
 
-### useI18nKeyToText----------映射状态计算属性-具有响应能力
+### useI18nKeyToText----------映射指定key的文本(同fr)-具有响应能力
 
 1.使用
 
 ```javascript
 import { useI18nKeyToText } from "cxy-react-i18n";
 function App() {
-  const keyText = useI18nComputed(textKey); //textKey不填或为空均返回空字符串
+  const keyText = useI18nKeyToText(textKey); //textKey不填或为空均返回空字符串
   return <>{keyText}</>;
 }
 ```
