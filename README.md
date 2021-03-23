@@ -10,7 +10,7 @@
 
 ## 注意
 
-1.使用时需要注意 cxy-react-i18n 的版本和主要依赖 concent 的版本。需要保持一致。 2.当前支持的 concent 版本为:<a style="color:red;font-size:20px;">^2.14.14</a>
+1.使用时需要注意 cxy-react-i18n 的版本和主要依赖 concent 的版本。需要保持一致。 2.当前支持的 concent 版本为:<a style="color:red;font-size:20px;">^2.14.15</a>
 
 ## 开始
 
