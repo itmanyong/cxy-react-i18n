@@ -7,18 +7,14 @@ export function i18nLang({ lang }) {
 /**
  * 当前使用的语言包
  */
-export const i18nMessage = {
-	fn: ({ lang, message }, o, fnCtx) => {
-		try {
-			return message[lang] ? message[lang] : {};
-		} catch (error) {
-			console.warn(`cxy-react-i18n error:`, error);
-			return {};
-		}
-	},
-	depKeys: ['lang', 'message'],
-	compare: true,
-};
+export function i18nMessage({ lang, message }) {
+	try {
+		return message[lang] ? message[lang] : {};
+	} catch (error) {
+		console.warn(`cxy-react-i18n error:`, error);
+		return {};
+	}
+}
 
 /**
  * 当前所有的语言包类型对象
