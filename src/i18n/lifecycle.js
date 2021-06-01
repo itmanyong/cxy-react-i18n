@@ -6,13 +6,8 @@
  * @LastEditTime: 2021-04-08 15:29:50
  * @FilePath: \react-vite2-template\src\store\global\lifecycle.js
  */
-import { STORE_LANG_KEY } from '../configs/vars';
 const lifecycle = {
-	initState() {
-		return {
-			lang: localStorage.getItem(STORE_LANG_KEY) || '',
-		};
-	},
+	initState() {},
 	initStateDone() {},
 	loaded() {},
 	mounted() {},
