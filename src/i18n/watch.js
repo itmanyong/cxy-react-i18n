@@ -9,12 +9,14 @@ const invokeReducer = (reducer, payload) => setTimeout(() => dispatch(reducer, p
  */
 export const watch_lang_message = {
 	fn: ({ lang, message }, o, f) => {
-		if (!lang && Object.keys(message)[0]) {
+		const messageKeys = Object.keys(message)[0];
+		const storaLang = localStorage.getItem(STORE_LANG_KEY) || null;
+		if (!lang && messageKeys[0]) {
 			const setLang = f.refCtx.reducer[MODEL_NAME].setLang;
-			if (localStorage.getItem(STORE_LANG_KEY)) {
-				invokeReducer(setLang, localStorage.getItem(STORE_LANG_KEY));
+			if (storaLang && messageKeys.includes(storaLang)) {
+				invokeReducer(setLang, storaLang);
 			} else {
-				invokeReducer(setLang, Object.keys(message)[0]);
+				invokeReducer(setLang, messageKeys[0]);
 			}
 		}
 		if (lang && lang != o.lang) {
