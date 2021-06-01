@@ -1,7 +1,7 @@
 {
 	"name": "cxy-react-i18n",
 	"npmName": "cxy-react-concent",
-	"version": "1.30.35",
+	"version": "1.30.60",
 	"description": "适用于 react 的 i18n 国际化动态转换方案",
 	"main": "./lib/bundle.js",
 	"scripts": {
