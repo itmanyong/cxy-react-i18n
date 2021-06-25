@@ -10,10 +10,7 @@
 
 ## 注意
 
-1.使用时需要注意 cxy-react-i18n 的版本和主要依赖 concent 的版本。需要保持一致。 2.当前支持的 concent 版本为：
-<a href="https://www.npmjs.com/package/concent" rel="nofollow">
-    <img src="https://camo.githubusercontent.com/7904f8db91d29e2e9e282032823b8ecf001a223a1beab3f4e81b9a10398fa783/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f7061636b6167652d6a736f6e2f762f636f6e63656e746a732f636f6e63656e742f6d61737465722e7376673f6c6162656c3d6e706d25323076657273696f6e" alt="npm version" height="18" data-canonical-src="https://img.shields.io/github/package-json/v/concentjs/concent/master.svg?label=npm%20version" style="max-width:100%;">
-  </a>
+1.使用时需要注意 cxy-react-i18n 的版本和主要依赖 concent 的版本。需要保持一致。 2.当前支持的 concent 版本为：`2.15.12`
 
 ## 示例
 

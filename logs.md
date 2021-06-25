@@ -7,6 +7,10 @@
  * @FilePath: \cxy-react-i18n\logs.md
 -->
 
+## 2021.06.25
+
+1.更新依赖版本
+
 ## 2021.06.01
 
 1.更新依赖版本
@@ -82,4 +86,4 @@ I18nMessageKeys  =>  i18nMessageKeys
 
 ## 2021.03.16 初版上传 github
 
-地址:`<a href="https://github.com/cxy2019731/cxy-react-i18n">`https://github.com/cxy2019731/cxy-react-i18n`</a>`
+地址:`<a href="https://github.com/cxy2019731/cxy-react-i18n">`https://github.com/cxy2019731/cxy-react-i18n `</a>`

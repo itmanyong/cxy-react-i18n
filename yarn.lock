@@ -1016,10 +1016,10 @@ commander@^2.20.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
   integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
-concent@^2.15.3:
-  version "2.15.3"
-  resolved "https://registry.yarnpkg.com/concent/-/concent-2.15.3.tgz#7169bc5f43d1a2b02675a542aefdf38b9362ad76"
-  integrity sha512-J4Jcj+hP8vSoPKup3CNv0pYta+g+Eu58m41CYdaa/yR1RPXuYp4PPAJRYPV9zf7EwJh3eVe1PAPgQVIrz5rYFA==
+concent@^2.15.12:
+  version "2.15.12"
+  resolved "https://registry.nlark.com/concent/download/concent-2.15.12.tgz#288500a176499e4ab789af0df05a611a4c44c499"
+  integrity sha1-KIUAoXZJnkq3ia8N8FphGkxExJk=
 
 convert-source-map@^1.7.0:
   version "1.7.0"
